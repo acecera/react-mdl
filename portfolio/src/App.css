@@ -1,28 +1,68 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Bangers|MedievalSharp');
+
+.header-color {
+background: #00F260;
+background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0575E6, #00F260); 
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.lp-grid {
+background: #00F260;
+background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0575E6, #00F260); 
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+text-align: center;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+.profile-img {
+  height: 400px;
+}
+
+.banner {
+  background-color: black;
+  opacity: .6;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.banner h1 {
   color: white;
+  text-align: center;
+  font-family: 'MedievalSharp', "Bangers",-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif cursive;
 }
 
-.App-title {
-  font-size: 1.5em;
+hr {
+  size: 20px;
+  height: 20%;
 }
 
-.App-intro {
-  font-size: large;
+.banner hr {
+  border-top: 14px whitesmoke;
+  width: 50%;
+  margin: auto;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.banner p {
+  color: white;
+  font-size: 20x;
+  padding: 2em;
+}
+
+.links {
+  color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.links i {
+  color: black;
+  font-size: 5em;
+  padding: 8px;
 }
