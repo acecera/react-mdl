@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/acecera/react-mdl/issues"
   },
-  "homepage": "https://github.com/acecera/react-mdl#readme"
+  "homepage": "https://github.com/acecera/react-mdl#readme",
+  "dependencies": {
+    "npm": "^6.3.0"
+  }
 }
