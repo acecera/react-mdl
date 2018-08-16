@@ -6,10 +6,11 @@ class Contact extends Component {
     render() {
         return (
             <div className="contact-body">
-                <Grid>
+                <Grid className="contact-grid">
                     <Cell col={6}>
                         <h2>Anthony Cera</h2>
-                        <ProfileImage />
+                        <img src={ProfileImage} alt="profile pic" style={{height: '250px'}}/>
+                        <p style={{width: '75%', margin: 'auto', paddingTop: '2em'}}>Please fill out the form to contact me!</p>
                     </Cell>
                     <Cell col={6}></Cell>
                 </Grid>
