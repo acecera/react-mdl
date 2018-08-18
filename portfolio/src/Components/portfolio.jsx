@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Tabs, Tab, Grid, Cell, Card, CardTitle } from "react-mdl";
+import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, CardMenu, IconButton, Button } from "react-mdl";
 
 
 class Portfolio extends Component {
@@ -11,15 +11,22 @@ class Portfolio extends Component {
     toggleCategories() {
         if(this.state.activeTab === 0) {
             return(
-                <Card shadow={4} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: '#fff', height: '176px', background: 'url() center/ cover'}}>React Project 1</CardTitle>
-                    <CardText>
-                        This is the description.
-                    </CardText>
-                    <CardActions border>
-                        <Button colored>GitHub</Button>
-                    </CardActions>
-                </Card>
+                <div>
+                    {/*Project 1*/}
+                    <Card shadow={4} style={{minWidth: '450', margin: 'auto'}}>
+                        <CardTitle style={{color: 'black', height: '176px', background:
+                        'url() center/ cover'}}>React Project 1</CardTitle>
+                        <CardText>
+                            This is the description.
+                        </CardText>
+                        <CardActions border>
+                            <Button colored>GitHub</Button>
+                        </CardActions>
+                        <CardMenu style={{color: '#fff'}}>
+                            <IconButton name="share" />
+                        </CardMenu>
+                    </Card>
+                </div>
             )
         } else if(this.state.activeTab === 1) {
             return(
