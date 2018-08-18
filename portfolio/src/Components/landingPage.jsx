@@ -10,7 +10,7 @@ class LandingPage extends Component {
                     <Cell col={12}>
                         <img 
                           src={ProfileImage}
-                          alt="profile picture"
+                          alt="profile pic"
                           className="profile-img"/>
                         <div className="banner">
                             <h1>Full Stack Web Developer</h1>
