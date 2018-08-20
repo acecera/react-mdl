@@ -18,17 +18,15 @@ class LandingPage extends Component {
 
                         <hr className="hr"/>
 
-                        <p>HTML/CSS | Bootstrap | JavaScript | NodeJS | React/Redux | MySQL | </p>
-
                         <div className="links">
 
                             {/* LinkedIn */}
-                            <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                            <a href="https://www.linkedin.com/in/anthony-cera-151b9440/" rel="noopener noreferrer" target="_blank">
                                 <i className="fa fa-linkedin-square" aria-hidden="true" />
                             </a>
 
                             {/* GitHub */}
-                            <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                            <a href="https://github.com/acecera" rel="noopener noreferrer" target="_blank">
                                 <i className="fa fa-github-square" aria-hidden="true" />
                             </a>
                         </div>
