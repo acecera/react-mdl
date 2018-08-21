@@ -1,5 +1,5 @@
 import React from "react";
-import LandingPage from "./landingPage";
+import LandingPage from "./LandingPage/landingPage";
 import About from "./About/About";
 import Portfolio from "./Portfolio/Portfolio";
 import Contact from "./Contact/Contact";
