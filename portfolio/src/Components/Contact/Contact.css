@@ -7,7 +7,7 @@
     padding-top: 2em;
   }
   
-  .contact-grid {
+.contact-grid {
     text-align: center;
     justify-content: center;
     width: 80%;
@@ -17,28 +17,28 @@
     margin-bottom: 20px;
   }
   
-  .contact-grid h2  {
+.contact-grid h2  {
     font-family: 'Bangers', sans-serif;
   }
   
-  .contact-grid p { 
+.contact-grid p { 
     font-family: 'Oswald', sans-serif;
     font-size: 16px;
     font-weight: bold;
   }
   
-  .contact-grid hr {
+.contact-grid hr {
     border-top: 5px solid black;
     width: 50%;
     margin: auto;
   }
   
-  .contact-list i {
+.contact-list i {
     font-size: 60px;
     padding-right: 6rem;
   }
   
-  .contact-list a {
+.contact-list a {
     color: black;
     border-bottom: none;
   }
