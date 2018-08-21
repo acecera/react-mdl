@@ -33,13 +33,17 @@ class About extends Component {
                           skill="HTML5/CSS3"
                           progress={80}
                           />
-                        <Skills 
-                          skill="React.js"
-                          progress={30}
-                          /> 
                         <Skills
                           skill="Node.js"
                           progress={60}
+                          />
+                        <Skills 
+                          skill="React.js"
+                          progress={35}
+                          /> 
+                        <Skills
+                          skill="Redux"
+                          progress={30}
                           />
                         <Skills
                           skill="Java"
@@ -53,7 +57,18 @@ class About extends Component {
                           skill="MySQL"
                           progress={30}
                           />
-                          
+                        <Skills
+                          skill="SASS"
+                          progress={20}
+                          />
+                        <Skills
+                          skill="Animation"
+                          progress={20}
+                          />
+                        <Skills
+                          skill="UI"
+                          progress={30}
+                          />  
                     </Cell>
                 </Grid>
             </div>
