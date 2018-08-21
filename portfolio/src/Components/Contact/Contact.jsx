@@ -17,8 +17,9 @@ class Contact extends Component {
                         <h2>Anthony Cera</h2>
                         <img src={ProfileImage} alt="profile pic" style={{height: '250px'}}/>
                         <p style={{width: '75%', margin: 'auto', paddingTop: '2em', fontFamily: 'Oswald'}}>
-                            Please contact at anytime if you have questions or inquiries and feel free to check out my LinkedIn or GitHub!
+                            Please feel free contact at anytime if you have questions/inquiries or feel free to check out my LinkedIn or GitHub!
                         </p>
+                        <i className="fas fa-long-arrow-alt-right" aria-hidden="true" style={{fontSize: '90px'}}/> 
                     </Cell>
                     <Cell col={6}>
                         <h2>Contact Me</h2>
@@ -45,7 +46,7 @@ class Contact extends Component {
                                         <a href="https://www.linkedin.com/in/anthony-cera-151b9440/" rel="noopener noreferrer" target="_blank">
                                             <i className="fa fa-linkedin-square" aria-hidden="true" />
                                         </a>
-                                        LinkedIn
+                                        <a href="https://www.linkedin.com/in/anthony-cera-151b9440/" style={{textDecoration: 'none'}}>LinkedIn</a>
                                     </ListItemContent>
                                 </ListItem>
 
@@ -54,7 +55,7 @@ class Contact extends Component {
                                         <a href="https://github.com/acecera" rel="noopener noreferrer" target="_blank">
                                             <i className="fa fa-github-square" aria-hidden="true" />
                                         </a>
-                                        GitHub
+                                        <a href="https://github.com/acecera" style={{textDecoration: 'none'}}>GitHub</a>
                                     </ListItemContent>
                                 </ListItem>
                             </List>
