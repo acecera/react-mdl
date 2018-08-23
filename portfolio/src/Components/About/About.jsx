@@ -20,8 +20,8 @@ class About extends Component {
                         <h4 style={{color: 'grey', fontFamily: 'Anton'}}>Full Stack Web Developer</h4>
                         <hr style={{borderTop: '3px solid silver', width: '50%'}} />
                         <p style={{fontFamily: 'Anton', fontSize: '14px'}}>I am Web Developer based out of Los Angeles with a desire to grow and expand my knowledge as a Developer.
-                            In my free time I enjoy learning new technologies on udemy, hanging out with my family and friends, snowboarding, golfing and playing music. I have two dogs 
-                            named Dre and Jade that I like to take on hikes around LA whenever possible. 
+                            When I'm not coding I like to hang out with my family and friends, snowboard, golf, and try new restaurants. I also have two dogs, 
+                            named Dre and Jade, that I like to take on hikes around LA whenever possible. 
                         </p>
                     </Cell>
                     <Cell className="skills-right-col" col={8}>
