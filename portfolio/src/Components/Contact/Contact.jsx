@@ -17,7 +17,7 @@ class Contact extends Component {
                         <h2>Anthony Cera</h2>
                         <img src={ProfileImage} alt="profile pic" style={{height: '250px'}}/>
                         <p style={{width: '75%', margin: 'auto', paddingTop: '2em', fontFamily: 'Oswald'}}>
-                            Please feel free contact at anytime if you have questions/inquiries or feel free to check out my LinkedIn or GitHub!
+                            Please contact me at anytime if you have any questions or inquiries. Also feel free to check out my GitHub or LinkedIn, Thank you!
                         </p>
                         <i className="fas fa-long-arrow-alt-right" aria-hidden="true" style={{fontSize: '90px'}}/> 
                     </Cell>
