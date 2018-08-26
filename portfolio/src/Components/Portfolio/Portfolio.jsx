@@ -16,12 +16,14 @@ class Portfolio extends Component {
                     {/*Project 1*/}
                     <Card shadow={4} style={{minWidth: '450', margin: 'auto'}}>
                         <CardTitle style={{color: 'black', height: '176px', background:
-                        'url() center/ cover'}}>React Project 1</CardTitle>
+                        'url(https://github.com/davidfunk13/cars) center/ cover'}}>Cars App</CardTitle>
                         <CardText>
-                            This is the description.
+                            With a team we recreated Cars.com using a MERN app stack flow.
                         </CardText>
                         <CardActions border>
+                            <a href="https://github.com/davidfunk13/cars">
                             <Button colored>GitHub</Button>
+                            </a>
                         </CardActions>
                         <CardMenu style={{color: '#fff'}}>
                             <IconButton name="share" />
